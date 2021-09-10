@@ -90,6 +90,15 @@
 }
 
 
+.ex-8-img{
+    transition: border-radius 2s, filter 3s 1s;
+}
+
+.ex-8-img:hover{
+    border-radius: 40px;
+    filter:blur(2px) invert(80%);
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
