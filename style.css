@@ -78,7 +78,7 @@
 
 
 .ex-6-img:hover{
-    filter:grayscale(100)
+    filter:grayscale(100%)
 }
 
 
@@ -86,7 +86,7 @@
     transition: filter 2s;
 }
 .ex-7-img:hover{
-    filter:grayscale(100)
+    filter:grayscale(100%) brightness(10%);
 }
 
 
