@@ -201,11 +201,11 @@
 
 
 .ex-12-top-white{
-    animation-name: test1;
+    animation-name: test1_top;
 }
 
 .ex-12-bottom-white{
-    animation-name: test2;
+    animation-name: test1_bottom;
 }
 
 .ex-12-top-white , .ex-12-bottom-white{
@@ -215,7 +215,7 @@
     animation-timing-function: linear;
 }
 
-@keyframes test1{
+@keyframes test1_top{
     from{
         left:10%;
     }
@@ -226,7 +226,7 @@
 }
 
 
-@keyframes test2{
+@keyframes test1_bottom{
     from{
         right:20%;
     }
@@ -235,3 +235,7 @@
         right:calc(80% - 60px);
     }
 }
+
+
+
+
